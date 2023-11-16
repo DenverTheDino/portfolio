@@ -1,0 +1,27 @@
+header{
+    background-color: #101010; 
+}
+header a{
+    text-decoration: none;
+    text-transform: none;
+    color: #0d9865;
+}
+header ul{
+    list-style: none;
+}
+header a:hover{
+   cursor: default;
+
+}
+header ul li{
+    margin-left: 40px;
+}
+.about{
+    background-color:#0d9865 ;
+}
+.about img{
+    opacity: 0.4;
+}
+.about a{
+    color: #0d9865;
+}
