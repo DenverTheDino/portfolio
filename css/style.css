@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 header{
     background-color: #101010; 
 }
@@ -12,6 +12,7 @@ header ul{
 }
 header a:hover{
    cursor: default;
+   color:#0d9865 ;
 
 }
 header ul li{
@@ -22,71 +23,44 @@ header ul li{
 }
 .about img{
     opacity: 0.4;
+    width: 100%;
+    height: auto;
+    
 }
 .about a{
     color: #0d9865;
-}
-=======
+    font-family: 'MuseoModerno', sans-serif;
+    
 
-.header{
-    background-color: #101010;
 }
-.header .logo{
-    font-size: 30px;
-    font-weight: 900;
+.about a:hover{
+    cursor: default;
+    color:#0d9865 ;
+}
+.about h1{
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
-    color: #0D9865;
-    font-family:'MuseoModerno', sans-serif;
+
 }
-.header nav ul{
-    display: flex;    
-    justify-content: flex-end;
-    
+
+.competence{
+    background-color:#101010 ;
+    color: #0d9865;
 }
-.header nav ul li{
+.competence ul{
     list-style: none;
-    padding: 5px;
-    color: #0D9865;
 }
-.header nav ul li a {
-    text-decoration: none;
-    color: #0D9865;
-}
-.hero{ 
-    background-color: #0D9865 ;
-    min-height:calc( 100vh) ;
-    background-image:url(../image/téléchargement\.jfif) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-.hero .title{
-    margin-top: 50px;
-
-}
-.hero .text{
-    margin-top: 50px;
-}
-
-.hero .title h1{
-    font-family:'MuseoModerno', sans-serif;
-    font-style: black;
-    font-weight: 500;
-    position: absolute;
-    margin-top:20px ;
-
-}
-.hero .title span{
-    position: relative;
+.projet{
+    background-color: #0d9865;
     
-}
-.hero .text h2{
-    margin-top: 20px ;
-
 
 }
+.projet h2{
+    font-family: 'MuseoModerno', sans-serif;
 
+}
 
-
-
->>>>>>> Stashed changes
+.card{
+    background-color: #101010 ;
+}
