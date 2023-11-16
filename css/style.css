@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 header{
     background-color: #101010; 
 }
@@ -25,3 +26,67 @@ header ul li{
 .about a{
     color: #0d9865;
 }
+=======
+
+.header{
+    background-color: #101010;
+}
+.header .logo{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0D9865;
+    font-family:'MuseoModerno', sans-serif;
+}
+.header nav ul{
+    display: flex;    
+    justify-content: flex-end;
+    
+}
+.header nav ul li{
+    list-style: none;
+    padding: 5px;
+    color: #0D9865;
+}
+.header nav ul li a {
+    text-decoration: none;
+    color: #0D9865;
+}
+.hero{ 
+    background-color: #0D9865 ;
+    min-height:calc( 100vh) ;
+    background-image:url(../image/téléchargement\.jfif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.hero .title{
+    margin-top: 50px;
+
+}
+.hero .text{
+    margin-top: 50px;
+}
+
+.hero .title h1{
+    font-family:'MuseoModerno', sans-serif;
+    font-style: black;
+    font-weight: 500;
+    position: absolute;
+    margin-top:20px ;
+
+}
+.hero .title span{
+    position: relative;
+    
+}
+.hero .text h2{
+    margin-top: 20px ;
+
+
+}
+
+
+
+
+>>>>>>> Stashed changes
