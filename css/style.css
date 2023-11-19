@@ -1,21 +1,24 @@
 
-header{
+body{
+    background-color: #101010;
+}
+.main{
     background-color: #101010; 
 }
-header a{
+.main a{
     text-decoration: none;
     text-transform: none;
     color: #0d9865;
 }
-header ul{
+.main ul{
     list-style: none;
 }
-header a:hover{
+.main a:hover{
    cursor: default;
    color:#0d9865 ;
 
 }
-header ul li{
+.main ul li{
     margin-left: 40px;
 }
 .about{
@@ -63,4 +66,35 @@ header ul li{
 
 .card{
     background-color: #101010 ;
+}
+.card-title{
+    color: #0d9865;
+}
+.card-text{
+    color: #0d9865;
+}
+
+.contact{
+    display: flex;
+    text-align: center;
+    padding-left: 450px;
+    background-color: #101010;
+    color: #0d9865;
+}
+.contact button{
+    background-color: #0d9865;
+    color: #101010;
+}
+footer{
+    background-color: #0d9865;
+    color: #101010;
+}
+.contact__text{
+    background-color: #0d9865;
+    color: #101010;
+    font-family: 'MuseoModerno', sans-serif;
+}
+.contact__form{
+    background-color: #101010;
+    color: #0d9865;
 }
