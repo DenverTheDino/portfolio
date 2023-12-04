@@ -50,6 +50,7 @@ body{
     font-family: 'MuseoModerno', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 50px;
 
 }
 
@@ -70,7 +71,9 @@ body{
 }
 .projet h2{
     font-family: 'MuseoModerno', sans-serif;
+    font-size: 35px;
     font-weight: bold;
+    text-transform: uppercase;
 
 }
 
@@ -152,3 +155,60 @@ body{
     
 
 }
+.mine__banner{
+    background-color:#0d9865 ;
+}
+.mine__banner img{
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+}
+.mine__banner h1{
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mine__banner p{
+    font-family:'Caveat', cursive ;
+    font-size: 25px;
+}
+.mine__competence{
+    background-color:#101010 ;
+    color: #0d9865;
+}
+.mine__competence h2{
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.mine__competence ul{
+    list-style: none;
+    font-family:'Caveat', cursive ;
+    font-size: 25px;
+}
+.mine__hobbies{
+    background-color:#0d9865 ;
+    color:#101010 ;
+}
+.mine__hobbies h2{
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mine__hobbies ul{
+    list-style: none;
+    font-family:'Caveat', cursive ;
+    font-size: 25px;
+}
+.footer__apropos{
+    color: #0d9865;
+    font-family:'Caveat', cursive ;
+    font-size: 25px;
+}
+
+
